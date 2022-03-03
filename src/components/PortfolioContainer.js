@@ -10,6 +10,8 @@ export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   //render the component of the page user is on 
+  //instead of using href to link to a different page, our Handle page change fxn 
+  //renders a different component
   const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;
