@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LaurenDarrimon/portfolio/static/css/main.1a8a0596.css",
+    "main.js": "/LaurenDarrimon/portfolio/static/js/main.d1b81e85.js",
+    "index.html": "/LaurenDarrimon/portfolio/index.html",
+    "main.1a8a0596.css.map": "/LaurenDarrimon/portfolio/static/css/main.1a8a0596.css.map",
+    "main.d1b81e85.js.map": "/LaurenDarrimon/portfolio/static/js/main.d1b81e85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a8a0596.css",
+    "static/js/main.d1b81e85.js"
+  ]
+}

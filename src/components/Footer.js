@@ -5,12 +5,12 @@ export default function Footer() {
     <section class="row align-items-center" id="contact">
       <div class="col-md-6 text-right">
         <p>
-          <a href="https://www.linkedin.com/in/lauren-duker/" target="_blank">
+          <a href="https://www.linkedin.com/in/lauren-duker/" rel="noreferrer" target="_blank">
             Linkedin
           </a>
         </p>
         <p>
-          <a href="https://github.com/LaurenDarrimon" target="_blank">
+          <a href="https://github.com/LaurenDarrimon" rel="noreferrer" target="_blank">
             Github
           </a>
         </p>
