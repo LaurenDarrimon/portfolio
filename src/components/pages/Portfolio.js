@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Project from "./Project";
 import { projectData } from "../../data/project-data";
+import '../../styles/Portfolio.css';
+
 
 export default function Portfolio() {
   const [projects, setProject] = useState(projectData);
@@ -20,11 +22,10 @@ export default function Portfolio() {
               key={project.id}
               title={project.title}
               description={project.description}
-              details={project.details}
               repo_url={project.repo_url}
               deployed_url={project.deployed_url}
               image_path={project.image_path}
-              big_picture={project.big_picture}
+              backend={project.backend}
             />
           ))}
         </div>

@@ -9,6 +9,7 @@ export const projectData = [
       repo_url: "https://github.com/LaurenDarrimon/tech-blog",
       deployed_url: "https://vast-chamber-35721.herokuapp.com/",
       image_path: "/assets/images/rubber-duck.png",
+      backend:false
     },
     {
       id: 2,
@@ -18,6 +19,7 @@ export const projectData = [
       repo_url: "https://github.com/LaurenDarrimon/find-covid-testing",
       deployed_url: "https://laurendarrimon.github.io/find-covid-testing/",
       image_path: "/assets/images/map-test.png",
+      backend:false
     },
     {
       id: 3,
@@ -27,6 +29,7 @@ export const projectData = [
       repo_url: "https://github.com/LaurenDarrimon/community-share",
       deployed_url: "https://hidden-forest-09542.herokuapp.com/",
       image_path: "/assets/images/neighborgood.png",
+      backend:false
 
     },
     {
@@ -48,6 +51,7 @@ export const projectData = [
       repo_url: "https://github.com/LaurenDarrimon/text-editor",
       deployed_url: "https://polar-temple-63530.herokuapp.com/",
       image_path: "/assets/images/text-editor.png",
+      backend:false
       
     },
     {

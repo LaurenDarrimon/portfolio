@@ -4,7 +4,7 @@ import '../styles/Nav.css';
 // object destructuring to grab props.currentPage and props.handlePageChange
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav">
       <li className="nav-item">
         <a
           href="#home"
@@ -12,7 +12,7 @@ function Nav({ currentPage, handlePageChange }) {
           // if user is on this page, set bootstrap class attribute to active
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          Lauren Darrimon
         </a>
       </li>
       <li className="nav-item">

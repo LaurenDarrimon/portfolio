@@ -1,0 +1,13 @@
+:root {
+    --terra: #af856b;
+    --cream: #fffaf4;
+    --concrete: #dcdddb;
+    --black: #333;
+  }
+
+#portfolio {
+    background-color: var(--concrete);
+    color: var(--black);
+    padding:20px;
+    height: auto;
+  }
