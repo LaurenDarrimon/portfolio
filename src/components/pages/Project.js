@@ -4,7 +4,7 @@ export default function Project(props) {
 
   return (
 
-      <div className="card portfolio-items col-md-5 col-lg-3 fade-up">
+      <div className="card portfolio-items col-md-5 fade-up">
         <img
           className="card-img-top"
           src={props.image_path}
