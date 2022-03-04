@@ -12,10 +12,9 @@
   border-radius: 0px;
   margin: 20px !important;
 }
-
 .btn-primary {
-  background-color: var(--concrete) !important;
-  border-color: var(--concrete) !important;
+  background-color: var(--black) !important;
+  color: var(--concrete) !important;
   border: none;
   border-radius: 0px !important;
   font-size: 1.1rem !important;
@@ -26,8 +25,8 @@
 }
 
 .btn:hover {
-  background-color: var(--terra);
-  color: var(--concrete);
+  background-color: var(--terra) !important;
+  color: var(--concrete) !important;
   border: none;
 }
 

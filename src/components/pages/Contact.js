@@ -1,9 +1,11 @@
 import React from "react";
+import Form from "./Form";
 import '../../styles/Contact.css';
 
 export default function Contact() {
   return (
     <section className="row align-items-center" id="contact">
+
       <div className="col-md-6 text-right">
         <p>
           <a href="https://www.linkedin.com/in/lauren-duker/" rel="noreferrer" target="_blank">
@@ -26,7 +28,9 @@ export default function Contact() {
 
       <div className="col-md-6">
         <h2 className="display-1 fade-up">REACH OUT</h2>
+        <Form />
       </div>
+        
     </section>
   );
 }
