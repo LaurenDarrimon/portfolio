@@ -1,0 +1,21 @@
+section {
+  font-family: "Oranienbaum", serif;
+  height: 10% !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  padding: 10px;
+}
+
+a {
+    padding: 10px;
+}
+
+
+.serif {
+  font-family: "Oranienbaum", serif;
+}
+

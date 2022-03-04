@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className="col-md-6 align-self-center">
         <h3>
-          Full Stack Web Development | React | Back-End | Front-End | Javascript | UI/UX
+          Full Stack Web Development | React | Back-End | Javascript | MERN | UI/UX
         </h3>
         <br />
         <h4>

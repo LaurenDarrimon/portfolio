@@ -10,7 +10,7 @@ export default function Portfolio() {
   return (
     <section className="row" id="portfolio">
       <div className="col-12">
-        <h2 className="display-2">PORTFOLIO</h2>
+        <h2 className="display-1">PORTFOLIO</h2>
       </div>
       <div className="col-12">
         <div

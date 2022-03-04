@@ -25,9 +25,21 @@ a h1:hover {
   text-decoration: none;
 }
 
-/*style each div section*/
 #sec1 {
-  height: 120vh;
+  height: 100vh;
   background-color: var(--cream);
   color:var(--black);
+}
+
+
+@media (min-width: 768px){
+  #sec1 {
+      height: 80vh;
+  }
+}
+
+@media (min-width: 992px){
+  #sec1 {
+    height: 95vh;
+}
 }
