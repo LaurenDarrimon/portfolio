@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+/*brand colors*/
+:root {
+  --terra: #af856b;
+  --cream: #fffaf4;
+  --concrete: #dcdddb;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oranienbaum", serif;
+  background-color: var(--cream);
+  color: var(--black);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+a {
+  color: var(--terra);
+}
+
+a:hover {
+  color: var(--concrete);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+.serif {
+  font-family: "Oranienbaum", serif;
+}
+
+
+section {
+  padding: 40px;
+  height: 75vh;
+}
+
+#lauren {
+  margin: 20px;
+  max-width: 90%;
+}
+
+
+.btn {
+  background-color: var(--concrete);
+  color: var(--terra);
+  border: none;
+  border-radius: 0px;
+
+
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Raleway", sans-serif;
+  margin: botttom 30px;
+}
+
+.btn:hover {
+    background-color: var(--terra);
+    color:var(--concrete) ;
+    border: none;
+}
+
+
+
+#portfolio {
+  background-color: var(--concrete);
+  color: black;
+  padding:20px;
+  height: auto;
+}
+
+.portfolio-items {
+  padding: 20px;
+  background-color: var(--cream);
+  color: var(--black);
+  border-radius:0px;
+  margin:5px;
+
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+
+@media (min-width: 768px){
+  #sec1 {
+      height: 80vh;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (min-width: 992px){
+  #sec1 {
+    height: 95vh;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

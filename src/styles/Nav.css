@@ -1,0 +1,12 @@
+.nav {
+  background-color: var(--cream);
+  color: black;
+}
+
+a {
+    color: black !important;
+  }
+  
+a:hover {
+    color: var(--terra) !important;
+}

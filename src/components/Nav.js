@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Nav.css';
 
 // object destructuring to grab props.currentPage and props.handlePageChange
 function Nav({ currentPage, handlePageChange }) {

@@ -1,0 +1,33 @@
+:root {
+    --terra: #af856b;
+    --cream: #fffaf4;
+    --concrete: #dcdddb;
+    --black: #333;
+  }
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+.serif {
+  font-family: "Oranienbaum", serif;
+}
+
+a h1 {
+  color: var(--black);
+  text-decoration: none;
+}
+
+a h1:hover {
+  color: var(--terra);
+  text-decoration: none;
+}
+
+/*style each div section*/
+#sec1 {
+  height: 120vh;
+  background-color: var(--cream);
+  color:var(--black);
+}
