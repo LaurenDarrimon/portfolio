@@ -1,0 +1,13 @@
+{
+  "short_name": "Lauren's Portfolio",
+  "name": "Lauren Darrimon Full Stack Developer Portfolio",
+  "icons": [
+    {
+      "src": "favi.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
