@@ -6,7 +6,7 @@ export default function Resume() {
     <section className="row align-items-center" id="resume">
       <div className="col-md-6">
         <embed
-          src="./assets/images/resume-darrimon.pdf"
+          src="https://laurendarrimon.github.io/portfolio/assets/images/resume-darrimon.pdf"
           width="600"
           height="700"
         ></embed>

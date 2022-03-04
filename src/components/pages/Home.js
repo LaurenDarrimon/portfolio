@@ -13,7 +13,7 @@ export default function Home() {
 
       <div className="col-md-6">
         <img
-          src="./assets/images/lauren.png"
+          src="https://laurendarrimon.github.io/portfolio/assets/images/lauren.png"
           alt="black and white headshot of Lauren"
           id="lauren"
           className="fade-up"
