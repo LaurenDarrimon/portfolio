@@ -9,7 +9,7 @@ export default function About() {
 
       <div className="col-md-6">
         <img
-          src="/assets/images/lauren-bw.png"
+          src="./assets/images/lauren-bw.png"
           alt="black and white headshot of Lauren"
           id="lauren"
           className="fade-up"
