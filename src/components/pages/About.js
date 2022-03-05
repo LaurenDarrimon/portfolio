@@ -9,7 +9,7 @@ export default function About() {
     AOS.refresh();
   }, []);
   return (
-    <section className="row justify-content-start section-top" id="sec1">
+    <section className="row justify-content-between section-top" id="sec1">
       <div className="col-12">
         <h2
           className="display-1 serif"
