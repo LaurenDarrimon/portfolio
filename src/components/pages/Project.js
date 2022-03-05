@@ -4,6 +4,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Project(props) {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div
       className="card portfolio-items col-md-5"

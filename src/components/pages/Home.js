@@ -38,10 +38,6 @@ export default function Home() {
           Full Stack Web Development | React | Back-End | Javascript | MERN |
           UI/UX
         </h3>
-        <br />
-        <h4>
-          <a href="#contact">Work with me.</a>
-        </h4>
       </div>
     </section>
   );
