@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "../../styles/About.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function About() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <section className="row justify-content-start" id="sec1">
+    <section className="row justify-content-start section-top" id="sec1">
       <div className="col-12">
-        <h2 className="display-1 serif">It's lovely to meet you.</h2>
+        <h2
+          className="display-1 serif"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          It's lovely to meet you.
+        </h2>
       </div>
 
       <div className="col-md-6">

@@ -1,12 +1,25 @@
-import React from "react";
-import '../../styles/Home.css';
+import React, { useEffect } from "react";
+import "../../styles/Home.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <section className="row justify-content-start" id="sec1">
+    <section className="row justify-content-start section-top" id="sec1">
       <div className="col-12">
         <a href="/" className="text-decoration-none">
-          <h1 className="display-2">LAUREN DARRIMON</h1>
+          <h1
+            className="lauren"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            LAUREN <span className="serif">DARRIMON</span>
+          </h1>
         </a>
         <h2 className="display-6 serif">Full Stack Engineer</h2>
       </div>
@@ -22,7 +35,8 @@ export default function Home() {
 
       <div className="col-md-6 align-self-center">
         <h3>
-          Full Stack Web Development | React | Back-End | Javascript | MERN | UI/UX
+          Full Stack Web Development | React | Back-End | Javascript | MERN |
+          UI/UX
         </h3>
         <br />
         <h4>

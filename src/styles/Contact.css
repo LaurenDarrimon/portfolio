@@ -13,5 +13,15 @@ section {
   .serif {
     font-family: "Oranienbaum", serif;
   }
+
+  .reach-out{
+    font-size:10rem !important;
+  }
+
+  #contact-info{
+    padding-top:150px;
+  }
+
+
   
   

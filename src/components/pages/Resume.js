@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "../../styles/About.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "../../styles/Resume.css";
 
 export default function Resume() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <section className="row align-items-center" id="resume">
+    <section className="row align-items-center section-top" id="resume">
       <div className="col-md-6">
         <embed
           src="https://laurendarrimon.github.io/portfolio/assets/images/resume-darrimon.pdf"
@@ -13,7 +20,14 @@ export default function Resume() {
       </div>
 
       <div className="col-md-6">
-        <h2 className="display-1 fade-up">RESUME</h2>
+        <h2
+          className="display-1 fade-up"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          RESUME
+        </h2>
       </div>
     </section>
   );

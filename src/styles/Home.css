@@ -1,9 +1,9 @@
 :root {
-    --terra: #af856b;
-    --cream: #fffaf4;
-    --concrete: #dcdddb;
-    --black: #333;
-  }
+  --terra: #af856b;
+  --cream: #fffaf4;
+  --concrete: #dcdddb;
+  --black: #333;
+}
 
 h1,
 h2,
@@ -25,21 +25,37 @@ a h1:hover {
   text-decoration: none;
 }
 
+.lauren {
+  font-size: 6rem !important;
+}
+
 #sec1 {
   height: 100vh;
   background-color: var(--cream);
-  color:var(--black);
+  color: var(--black);
 }
 
-
-@media (min-width: 768px){
+@media (min-width: 768px) {
   #sec1 {
-      height: 80vh;
+    height: 80vh;
+  }
+  .lauren {
+    font-size: 7rem !important;
   }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   #sec1 {
     height: 95vh;
+  }
+
 }
+
+@media (min-width: 992px) {
+  #sec1 {
+    height: 95vh;
+  }
+  .lauren {
+    font-size: 8rem !important;
+  }
 }

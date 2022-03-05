@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, UseEffect } from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 import Home from './pages/Home';
@@ -6,6 +6,8 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');

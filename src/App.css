@@ -38,6 +38,12 @@ h3 {
 }
 
 
+.section-top{
+  padding:30px;
+  padding-top:80px;
+}
+
+
 
 @media (min-width: 768px){
   #sec1 {
