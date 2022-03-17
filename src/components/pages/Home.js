@@ -11,16 +11,14 @@ export default function Home() {
   return (
     <section className="row justify-content-start section-top" id="sec1">
       <div className="col-12">
-        <a href="/" className="text-decoration-none">
-          <h1
-            className="lauren"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            LAUREN <span className="serif">DARRIMON</span>
-          </h1>
-        </a>
+        <h1
+          className="lauren"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          LAUREN <span className="serif terra">DARRIMON</span>
+        </h1>
         <h2 className="display-6 serif">Full Stack Engineer</h2>
       </div>
 

@@ -5,14 +5,14 @@ import "../styles/Nav.css";
 function Nav({ currentPage, handlePageChange }) {
   return (
     <ul className="nav">
-      <li className="nav-item">
+      <li className="nav-item mx-5 no-serif">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
           // if user is on this page, set bootstrap class attribute to active
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
-          Lauren Darrimon
+          LAUREN DARRIMON
         </a>
       </li>
       <li className="nav-item">

@@ -8,7 +8,7 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Oranienbaum", serif;
+  font-family: 'Sorts Mill Goudy', serif;
   background-color: var(--cream);
   color: var(--black);
 }
@@ -28,7 +28,11 @@ h3 {
 }
 
 .serif {
-  font-family: "Oranienbaum", serif;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.no-serif {
+  font-family: "Raleway", sans-serif;
 }
 
 

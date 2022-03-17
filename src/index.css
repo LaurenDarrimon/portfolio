@@ -9,7 +9,7 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Oranienbaum", serif;
+  font-family: 'Sorts Mill Goudy', serif;
   color: var(--black) !important;
   background-color: var(--cream) !important;
 }

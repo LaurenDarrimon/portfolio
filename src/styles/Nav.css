@@ -8,7 +8,7 @@
 .nav {
   background-color: var(--cream);
   color: var(--black);
-  font-family: "Oranienbaum", serif;
+  font-family: 'Sorts Mill Goudy', serif;
   padding: 30px;
   position: fixed;
   top: 0;

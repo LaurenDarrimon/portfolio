@@ -12,7 +12,11 @@ h3 {
 }
 
 .serif {
-  font-family: "Oranienbaum", serif;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.terra {
+  color: var(--terra);
 }
 
 a h1 {

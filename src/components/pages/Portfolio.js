@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 
 export default function Portfolio() {
   const [projects, setProject] = useState(projectData);
+  
   useEffect(() => {
     AOS.init();
     AOS.refresh();
