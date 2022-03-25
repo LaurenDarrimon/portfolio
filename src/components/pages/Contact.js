@@ -46,7 +46,7 @@ export default function Contact() {
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
         >
-          REACH <span className="serif">OUT</span>
+          REACH <span className="serif terra">OUT</span>
         </h2>
 
         <div>

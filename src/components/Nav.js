@@ -1,11 +1,12 @@
 import React from "react";
 import "../styles/Nav.css";
 
+
 // object destructuring to grab props.currentPage and props.handlePageChange
 function Nav({ currentPage, handlePageChange }) {
   return (
     <ul className="nav">
-      <li className="nav-item mx-5 no-serif">
+      <li className="nav-item mx-3 no-serif title">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}

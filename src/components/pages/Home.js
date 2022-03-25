@@ -19,7 +19,7 @@ export default function Home() {
         >
           LAUREN <span className="serif terra">DARRIMON</span>
         </h1>
-        <h2 className="display-6 serif">Full Stack Engineer</h2>
+        <h2 className="display-6 serif">Full Stack Web Developer</h2>
       </div>
 
       <div className="col-md-6">
@@ -33,7 +33,7 @@ export default function Home() {
 
       <div className="col-md-6 align-self-center">
         <h3>
-          Full Stack Web Development | React | Back-End | Javascript | MERN |
+          Full Stack Javascript Engineer | <span className="terra">React</span> | Back-End | MERN |
           UI/UX
         </h3>
       </div>

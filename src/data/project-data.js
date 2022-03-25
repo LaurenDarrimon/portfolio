@@ -76,18 +76,5 @@ export const projectData = [
     image_path:
       "https://laurendarrimon.github.io/portfolio/assets/images/text-editor.png",
     backend: false,
-  },
-  {
-    id: 6,
-    title: "E-Commerce Back End",
-    description:
-      "Back end for an e-commerce site using Express.js API and Sequelize to interact with a MySQL product database.",
-    details: "",
-    repo_url: "https://github.com/LaurenDarrimon/e-commerce-back-end",
-    deployed_url:
-      "https://drive.google.com/file/d/1O0RjBP43Ao_EWZZaeH5GSV_6-PX0tpwn/view",
-    image_path:
-      "https://laurendarrimon.github.io/portfolio/assets/images/e-commerce.png",
-    backend: true,
-  },
+  }
 ];

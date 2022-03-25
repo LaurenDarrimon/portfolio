@@ -9,7 +9,7 @@
   background-color: var(--cream);
   color: var(--black);
   font-family: 'Sorts Mill Goudy', serif;
-  padding: 30px;
+  padding: 20px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -17,10 +17,32 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
 a {
   color: var(--black) !important;
 }
 
 a:hover {
   color: var(--terra) !important;
+}
+
+@media (min-width: 768px){
+  #sec1 {
+      height: 80vh;
+  }
+
+  .nav {
+    padding: 30px;
+  }
+
+  .title {
+    padding-right:30px;
+    padding-left:30px
+  }
+}
+
+@media (min-width: 992px){
+  #sec1 {
+    height: 95vh;
+}
 }

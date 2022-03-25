@@ -22,7 +22,7 @@ export default function Resume() {
 
       <div className="col-md-6">
         <h2
-          className="display-1 fade-up"
+          className="display-1 fade-up terra"
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
