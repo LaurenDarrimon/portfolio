@@ -33,8 +33,7 @@ export default function Home() {
 
       <div className="col-md-6 align-self-center">
         <h3>
-          Full Stack Javascript Engineer | <span className="terra">React</span> | Back-End | MERN |
-          UI/UX
+          Full Stack Javascript Engineer | <span className="terra">React</span> | Back-End | MERN Stack
         </h3>
       </div>
     </section>

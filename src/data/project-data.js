@@ -1,6 +1,19 @@
 export const projectData = [
   {
     id: 0,
+    title: "NATIVE AMERICAN ART SCAVENGER HUNT GAME",
+    description:
+      "Interactive e-learning application and scavenger hunt game for the Santa Rosa Junior College Multi-Cultural Museum, built using Node.js, React, Bootstrap React, React Router Dom, and React DnD.",
+    details:
+      "Users can match with other developers that they would like to connect and collaborate with.",
+    repo_url: "https://github.com/LaurenDarrimon/srjc-museum-app",
+    deployed_url: "https://srjcstudentsites.org/museum/",
+    image_path:
+      "https://laurendarrimon.github.io/portfolio/assets/images/museum-game.jpg",
+    backend: false,
+  },
+  {
+    id: 1,
     title: "GIT MATCH",
     description:
       "Full Stack MERN social network application for developers to find collaboration and community, using React.js, Apollo GraphQL, MongoDB, and GitHub API.",
@@ -14,7 +27,7 @@ export const projectData = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "The Rubber Duck Tech Blog",
     description:
       "Full-stack CMS-style blog site where developers can publish and comment, using MVC architectural structure, Handlebars.js, Sequelize, and express-session.",
@@ -27,7 +40,7 @@ export const projectData = [
     backend: false,
   },
   {
-    id: 2,
+    id: 3,
     title: "Map-A-Test - Find COVID Testing",
     description:
       "Find nearby COVID tests sites geographically using Google Maps API and Here Developer API ",
@@ -40,7 +53,7 @@ export const projectData = [
     backend: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "Neighborgood! A Community Sharing App",
     description:
       "Full-stack application where users can post and claim gently used items offered by the community. Uses MVC architectural structure, Bootstrap, Handlebars.js, Sequelize, and express-session.",
@@ -53,7 +66,7 @@ export const projectData = [
     backend: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Social Network API",
     description:
       "API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. Uses Express.js for routing, a MongoDB database, and Mongoose ODM.",
@@ -66,7 +79,7 @@ export const projectData = [
     backend: true,
   },
   {
-    id: 5,
+    id: 6,
     title: "Text Editor",
     description:
       "Full-stack progressive web application (PWA) with data persistence techniques and offline capabilities for using an IndexedDB database with an idb wrapper.",
