@@ -35,7 +35,7 @@ export default function Contact() {
             Resume
           </a>
         </h4>
-        <h4>hello@laurenlalita.com</h4>
+        <h4>lauren.darrimon.dev@gmail.com</h4>
         <h4>707.243.3038</h4>
       </div>
 
