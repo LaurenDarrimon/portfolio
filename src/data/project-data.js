@@ -9,7 +9,7 @@ export const projectData = [
     repo_url: "https://github.com/LaurenDarrimon/srjc-museum-app",
     deployed_url: "https://srjcstudentsites.org/museum/",
     image_path:
-      "https://laurendarrimon.github.io/portfolio/assets/images/museum-game.jpg",
+      "https://laurendarrimon.github.io/portfolio/assets/images/museum-game.png",
     backend: false,
   },
   {
