@@ -14,7 +14,7 @@ export default function Resume() {
       <div className="col-md-6">
         <embed
           className="resume"
-          src="https://laurendarrimon.github.io/portfolio/assets/images/darrimon-resume.pdf"
+          src="https://laurendarrimon.github.io/portfolio/assets/images/resume-darrimon.pdf"
           width="600"
           height="700"
         ></embed>
